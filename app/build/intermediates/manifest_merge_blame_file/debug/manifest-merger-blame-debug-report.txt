@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bookbrowser"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+13-->[com.firebaseui:firebase-ui-database:6.1.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\0cd391ce0e3ac496a66bfd4751c61da7\firebase-ui-database-6.1.0\AndroidManifest.xml:11:5-67
+13-->[com.firebaseui:firebase-ui-database:6.1.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\0cd391ce0e3ac496a66bfd4751c61da7\firebase-ui-database-6.1.0\AndroidManifest.xml:11:22-64
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:8:5-47:19
+20        android:allowBackup="true"
+20-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\b46c0e80df3f5436b57a5df643a9501b\core-1.3.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:10:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:11:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:13:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:14:9-40
+29        <activity android:name="com.example.bookbrowser.Admin.AdminUsersOrdersActivity" />
+29-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:15:9-68
+29-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:15:19-65
+30        <activity android:name="com.example.bookbrowser.Admin.AdminNewOrdersActivity" />
+30-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:16:9-66
+30-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:16:19-63
+31        <activity android:name="com.example.bookbrowser.ConfirmFinalOrderActivity" />
+31-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:17:9-63
+31-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:17:19-60
+32        <activity android:name="com.example.bookbrowser.CartActivity" />
+32-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:18:9-50
+32-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:18:19-47
+33        <activity android:name="com.example.bookbrowser.BookDetailsActivity" />
+33-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:19:9-57
+33-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:19:19-54
+34        <activity android:name="com.example.bookbrowser.SettingsActivity" />
+34-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:20:9-54
+34-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:20:19-51
+35        <activity
+35-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:21:9-23:59
+36            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+36-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:22:13-76
+37            android:theme="@style/Base.Theme.AppCompat" />
+37-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:23:13-56
+38        <activity android:name="com.example.bookbrowser.BiopicActivity" />
+38-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:24:9-52
+38-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:24:19-49
+39        <activity android:name="com.example.bookbrowser.ReligiousActivity" />
+39-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:25:9-55
+39-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:25:19-52
+40        <activity android:name="com.example.bookbrowser.ComicActivity" />
+40-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:26:9-51
+40-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:26:19-48
+41        <activity android:name="com.example.bookbrowser.EducationalActivity" />
+41-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:27:9-57
+41-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:27:19-54
+42        <activity android:name="com.example.bookbrowser.DramaActivity" />
+42-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:28:9-51
+42-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:28:19-48
+43        <activity android:name="com.example.bookbrowser.ThrillerActivity" />
+43-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:29:9-54
+43-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:29:19-51
+44        <activity android:name="com.example.bookbrowser.NovelActivity" />
+44-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:30:9-51
+44-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:30:19-48
+45        <activity android:name="com.example.bookbrowser.Science_fictionActivity" />
+45-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:31:9-61
+45-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:31:19-58
+46        <activity
+46-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:32:9-35:59
+47            android:name="com.example.bookbrowser.HomeActivity"
+47-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:33:13-41
+48            android:label="@string/title_activity_home"
+48-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:34:13-56
+49            android:theme="@style/AppTheme.NoActionBar" />
+49-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:35:13-56
+50        <activity android:name="com.example.bookbrowser.Admin.AdminAddNewBooksActivity" />
+50-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:36:9-68
+50-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:36:19-65
+51        <activity android:name="com.example.bookbrowser.LoginActivity" />
+51-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:37:9-51
+51-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:37:19-48
+52        <activity android:name="com.example.bookbrowser.Admin.AdminCategoryActivity" />
+52-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:38:9-65
+52-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:38:19-62
+53        <activity android:name="com.example.bookbrowser.RegisterActivity" />
+53-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:39:9-54
+53-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:39:19-51
+54        <activity android:name="com.example.bookbrowser.WelcomeActivity" >
+54-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:40:9-46:20
+54-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:40:19-50
+55            <intent-filter>
+55-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:41:13-45:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:42:17-69
+56-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:42:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:44:17-77
+58-->C:\Users\HP-PC\AndroidStudioProjects\BookBrowser2\app\src\main\AndroidManifest.xml:44:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:29:9-35:19
+63            android:name="com.google.firebase.components.ComponentDiscoveryService"
+63-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:30:13-84
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\e2bbc2a56f3f861384a67674120e5467\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+65            android:exported="false" >
+65-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:31:13-37
+66            <meta-data
+66-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+67                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+67-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-database:19.3.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9f62f3892ea679f56a8581c89862595e\firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+70                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+70-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+72            <meta-data
+72-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\959ee2235b6f92a08f55a7379889d582\play-services-measurement-api-17.4.4\AndroidManifest.xml:30:13-32:85
+73                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+73-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\959ee2235b6f92a08f55a7379889d582\play-services-measurement-api-17.4.4\AndroidManifest.xml:31:17-139
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\959ee2235b6f92a08f55a7379889d582\play-services-measurement-api-17.4.4\AndroidManifest.xml:32:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\f4cbc860ba1ae8549ed3ab505ff3f3de\firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+76                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+76-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\f4cbc860ba1ae8549ed3ab505ff3f3de\firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\f4cbc860ba1ae8549ed3ab505ff3f3de\firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+78        </service>
+79
+80        <provider
+80-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9d2a8d0e75d209c1bd02bc8306cb9cd5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+81            android:name="com.squareup.picasso.PicassoProvider"
+81-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9d2a8d0e75d209c1bd02bc8306cb9cd5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+82            android:authorities="com.example.bookbrowser.com.squareup.picasso"
+82-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9d2a8d0e75d209c1bd02bc8306cb9cd5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+83            android:exported="false" />
+83-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\9d2a8d0e75d209c1bd02bc8306cb9cd5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+89
+90        <receiver
+90-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:29:9-33:20
+91            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+91-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:30:13-85
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:31:13-35
+93            android:exported="false" >
+93-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:32:13-37
+94        </receiver>
+95
+96        <service
+96-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:35:9-38:40
+97            android:name="com.google.android.gms.measurement.AppMeasurementService"
+97-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:36:13-84
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:37:13-35
+99            android:exported="false" />
+99-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:38:13-37
+100        <service
+100-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:39:9-43:72
+101            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+101-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:40:13-87
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:41:13-35
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:42:13-37
+104            android:permission="android.permission.BIND_JOB_SERVICE" />
+104-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\2ab1980d11e949c64b154e794a2af073\play-services-measurement-17.4.4\AndroidManifest.xml:43:13-69
+105
+106        <provider
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\e2bbc2a56f3f861384a67674120e5467\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+107            android:name="com.google.firebase.provider.FirebaseInitProvider"
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\e2bbc2a56f3f861384a67674120e5467\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+108            android:authorities="com.example.bookbrowser.firebaseinitprovider"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\e2bbc2a56f3f861384a67674120e5467\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+109            android:exported="false"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\e2bbc2a56f3f861384a67674120e5467\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+110            android:initOrder="100" />
+110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\e2bbc2a56f3f861384a67674120e5467\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\d0e27f5d5e50ed7060af1b81b952ba96\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\d0e27f5d5e50ed7060af1b81b952ba96\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\d0e27f5d5e50ed7060af1b81b952ba96\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+115
+116        <provider
+116-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+117            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+118            android:authorities="com.example.bookbrowser.lifecycle-process"
+118-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+119            android:exported="false"
+119-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+120            android:multiprocess="true" />
+120-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP-PC\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+121    </application>
+122
+123</manifest>

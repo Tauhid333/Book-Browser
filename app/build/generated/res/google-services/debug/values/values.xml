@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">873939018890-lqjaajp7mep5slmtf8san9lomkdng3gp.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://book-browser-7d732.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">873939018890</string>
+    <string name="google_api_key" translatable="false">AIzaSyDb5XOGod85EKfN2lFAzQ2lO7jG4eHdYAE</string>
+    <string name="google_app_id" translatable="false">1:873939018890:android:50eb47f8279b82e0d63973</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDb5XOGod85EKfN2lFAzQ2lO7jG4eHdYAE</string>
+    <string name="google_storage_bucket" translatable="false">book-browser-7d732.appspot.com</string>
+    <string name="project_id" translatable="false">book-browser-7d732</string>
+</resources>

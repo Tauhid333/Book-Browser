@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Admin.AdminAddNewBooksActivity">
+
+
+    <ImageView
+        android:id="@+id/select_book_image"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_book_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_book_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:padding="25dp"
+        android:hint="Book Name..."
+        android:textColor="#172154"
+        android:textColorHint="#172154"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        />
+
+
+    <EditText
+        android:id="@+id/book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="8dp"
+        android:padding="20dp"
+        android:hint="Book Description..."
+        android:textColor="#172154"
+        android:textColorHint="#172154"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        />
+
+
+    <EditText
+        android:id="@+id/book_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_description"
+        android:textColor="#172154"
+        android:textColorHint="#172154"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="8dp"
+        android:padding="20dp"
+        android:hint="Book Price..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        />
+
+
+    <Button
+        android:id="@+id/add_new_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_price"
+        android:text="Add Book"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        />
+
+
+
+
+</RelativeLayout>
